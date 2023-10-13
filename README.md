@@ -7,3 +7,7 @@
 
 <a name="desc0"></a>
 ### Why did the concept of virtualization appear in 1960?
+
+
+<img alt="1960" src="assets/1.png" />
+<img alt="1960" src="assets/2.png" />
