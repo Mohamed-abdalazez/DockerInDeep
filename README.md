@@ -10,4 +10,3 @@
 
 
 <img alt="1960" src="assets/1.png" />
-<img alt="1960" src="assets/2.png" />
