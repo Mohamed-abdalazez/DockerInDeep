@@ -31,3 +31,7 @@
 - Check out the figure for more explanation.
 
 <img alt="Hypervisor" src="assets/2.png" />
+
+- Safaret News Magazine will answer how hardware virtualization solved the issues that we faced before.
+
+  <img alt="Safaret News Magazine" src="assets/3.png" />
