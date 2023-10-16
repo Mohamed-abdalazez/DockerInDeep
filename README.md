@@ -38,6 +38,6 @@
 
 <img alt="Hypervisor" src="assets/2.png" />
 
-- Safaret News Magazine will answer how hardware virtualization solved the issues that we faced before.
+- Safaret News Magazine will answer how hardware virtualization solved the issues that we faced before, and the challenges it seeks to solve.
 
   <img alt="Safaret News Magazine" src="assets/3.png" />
