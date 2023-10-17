@@ -4,6 +4,7 @@
 
 1. [Why did the concept of virtualization appear in 1960?.](#desc0)
 2. [Virtualization.](#desc1)
+3. [Containers.](#desc2)
 
 
 <a name="desc0"></a>
@@ -41,3 +42,10 @@
 - Safaret News Magazine will answer how hardware virtualization solved the issues that we faced before, and the challenges it seeks to solve.
 
   <img alt="Safaret News Magazine" src="assets/3.png" />
+
+
+<a name="desc2"></a>
+### Containers
+**```Before we talk about containers, let's review an important concept from the virtual machine, which is the Base Disk or Base Image.```**
+
+- Base Disk: a virtual disk file that contains the initial operating system and application files for a virtual machine. It is a read-only disk, so the base disk is just a template. If there are any edits, a new version, or anything else you want to add to this VM, you have to clone a copy from the base disk to apply your edits.
