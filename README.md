@@ -4,6 +4,8 @@
 
 1. [Why did the concept of virtualization appear in 1960?.](#desc0)
 2. [Virtualization.](#desc1)
+3. [brief about ```Base Image``` and the ```Differencing Disk``` in virtual machines.](#desc2)
+4. [Containers.](#desc3)
 
 
 <a name="desc0"></a>
@@ -38,6 +40,32 @@
 
 <img alt="Hypervisor" src="assets/2.png" />
 
-- Safaret News Magazine will answer how hardware virtualization solved the issues that we faced before.
+- Safaret News Magazine will answer how hardware virtualization solved the issues that we faced before, and the challenges it seeks to solve.
 
   <img alt="Safaret News Magazine" src="assets/3.png" />
+
+
+<a name="desc2"></a>
+### brief about ```Base Image``` and the ```Differencing Disk``` in virtual machines
+**```Before we talk about containers, let's review an important concept from the virtual machine, which is the Base Image and the Differencing Disk.```**
+
+- **Base Disk**: is a read-only disk image that contains the core operating system, applications, and system configurations. It serves as the template for creating multiple VMs.
+- **Differencing Disk**:
+   - Differencing disks are associated with specific virtual machines (VMs) and track the changes made to the base image during the VM's operation.
+   - Each VM has its own differencing disk, allowing customization and modifications without altering the original base image.
+   - Multiple VMs can use the same base image, and each VM has its own differencing disk to capture its unique modifications.
+- **Size Calculation**: ```by assuming that```
+  - Base Image Size: 20GB
+    - VM1 Differencing Disk: 5GB (assuming 5GB of changes specific to VM1)
+      - Total disk usage for VM1: 20GB (base image) + 5GB (differencing disk) = 25GB
+    - VM2 Differencing Disk: 10GB (assuming 10GB of changes specific to VM2)
+      - Total disk usage for VM2: 20GB (base image) + 10GB (differencing disk) = 30GB
+    - VM3 Differencing Disk: 7GB (assuming 7GB of changes specific to VM3)
+      - Total disk usage for VM3: 20GB (base image) + 7GB (differencing disk) = 27GB
+
+<a name="desc3"></a>
+### Containers
+
+- Since any operating system has a kernel, if there's a way to use the kernel of the main machine, whether it's a physical machine or a virtual machine, and remove all the operating systems from each VM, and if we need any OS specification, we can add it as a layer on top of the host operating system kernal which will be good. that actually the container makes this.
+
+<img alt="containerIntro" src="assets/4.png" />
