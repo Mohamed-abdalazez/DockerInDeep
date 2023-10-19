@@ -69,3 +69,7 @@
 - Since any operating system has a kernel, if there's a way to use the kernel of the main machine, whether it's a physical machine or a virtual machine, and remove all the operating systems from each VM, and if we need any OS specification, we can add it as a layer on top of the host operating system kernal which will be good. that actually the container makes this.
 
 <img alt="containerIntro" src="assets/4.png" />
+
+- The same concept of the ```Base Image``` and the ```Differencing Disk``` in virtual machines is here in the containers.
+
+<img alt="Quick comparison" src="assets/5.png" />
