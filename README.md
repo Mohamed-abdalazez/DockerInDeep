@@ -77,3 +77,8 @@
 
 <a name="desc4"></a>
 ### How do containers depend on the kernel? Or what technology in the kernel enables this?
+
+- First of all, let's learn about two important Linux kernel features: ```namespaces``` and ```cgroups```.
+   - ```Namespaces``` and ```cgroups``` are two important Linux kernel features that provide mechanisms for isolating and controlling processes and resources.
+     
+     <img alt="Namespaces and cgroups" src="assets/6.png" />
