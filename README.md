@@ -80,5 +80,7 @@
 
 - First of all, let's learn about two important Linux kernel features: ```namespaces``` and ```cgroups```.
    - ```Namespaces``` and ```cgroups``` are two important Linux kernel features that provide mechanisms for isolating and controlling processes and resources.
+   - ```namespaces``` are used to provide process isolation and create lightweight containers, while ```cgroups``` are used to control resource allocation and limits for those containers. This combination allows you to run multiple isolated environments on a single host machine, each with its own set of processes and resource constraints.
      
      <img alt="Namespaces and cgroups" src="assets/6.png" />
+     
