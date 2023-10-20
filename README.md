@@ -6,6 +6,7 @@
 2. [Virtualization.](#desc1)
 3. [brief about ```Base Image``` and the ```Differencing Disk``` in virtual machines.](#desc2)
 4. [Containers.](#desc3)
+5. [How do containers depend on the kernel? Or what technology in the kernel enables this?](#desc4)
 
 
 <a name="desc0"></a>
@@ -73,3 +74,6 @@
 - The same concept of the ```Base Image``` and the ```Differencing Disk``` in virtual machines is here in the containers.
 
 <img alt="Quick comparison" src="assets/5.png" />
+
+<a name="desc4"></a>
+### How do containers depend on the kernel? Or what technology in the kernel enables this?
