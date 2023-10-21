@@ -4,10 +4,10 @@
 
 1. [Why did the concept of virtualization appear in 1960?.](#desc0)
 2. [Virtualization.](#desc1)
-3. [brief about ```Base Image``` and the ```Differencing Disk``` in virtual machines.](#desc2)
+3. [Brief about ```Base Image``` and the ```Differencing Disk``` in virtual machines.](#desc2)
 4. [Containers.](#desc3)
 5. [How do containers depend on the kernel? Or what technology in the kernel enables this?](#desc4)
-
+6. [The technology that is provided to deal with this container concept.](#desc5)
 
 <a name="desc0"></a>
 ### Why did the concept of virtualization appear in 1960?
@@ -85,3 +85,8 @@
      <img alt="Namespaces and cgroups" src="assets/6.png" />
 - In the figure below, let say that the container starts with proc_1, which is ```RUN CONTAINER```, then opens proc_2, which is ```OS specification```, and each process will open the next one. Linux Kernal considers all of these processes as a single process. and using the ```namespaces``` technique to isolate all these processes from all operating system.
 <img alt="container_architecture" src="assets/7.png" />
+
+<a name="desc5"></a>
+### The technology that is provided to deal with this container concept.
+
+- ```Docker``` is perhaps the most well-known container platform. So this repo will take a closer look into Docker.
