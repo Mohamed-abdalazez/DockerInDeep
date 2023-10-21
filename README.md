@@ -90,3 +90,5 @@
 ### The technology that is provided to deal with this container concept.
 
 - ```Docker``` is perhaps the most well-known container platform. So this repo will take a closer look into Docker.
+
+<img alt="Safrot" src="assets/8.png" />
