@@ -83,4 +83,5 @@
    - ```namespaces``` are used to provide process isolation and create lightweight containers, while ```cgroups``` are used to control resource allocation and limits for those containers. This combination allows you to run multiple isolated environments on a single host machine, each with its own set of processes and resource constraints.
      
      <img alt="Namespaces and cgroups" src="assets/6.png" />
-     
+- In the figure below, let say that the container starts with proc_1, which is ```RUN CONTAINER```, then opens proc_2, which is ```OS specification```, and each process will open the next one. Linux Kernal considers all of these processes as a single process. and using the ```namespaces``` technique to isolate all these processes from all operating system.
+<img alt="container_architecture" src="assets/7.png" />
