@@ -10,6 +10,7 @@
 4. [Containers.](#desc3)
 5. [How do containers depend on the kernel? Or what technology in the kernel enables this?](#desc4)
 6. [The technology that is provided to deal with this container concept.](#desc5)
+7. [Docker Installation.](#desc6)
 
 <a name="desc0"></a>
 ### Why did the concept of virtualization appear in 1960?
@@ -96,3 +97,8 @@
 <p align="center">
 <img alt="Safrot" src="assets/8.png" />
 </p>
+
+
+<a name="desc6"></a>
+### Docker Installation.
+- You can use the repo [docker-install](https://github.com/docker/docker-install), which is virified by Docker, or see the [Docker Docs](https://docs.docker.com/)
