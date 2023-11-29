@@ -101,4 +101,6 @@
 
 <a name="desc6"></a>
 ### Docker Installation.
-- You can use the repo [docker-install](https://github.com/docker/docker-install), which is virified by Docker, or see the [Docker Docs](https://docs.docker.com/)
+- You can use the repo [docker-install](https://github.com/docker/docker-install), which is virified by Docker, or see the [Docker Docs](https://docs.docker.com/).
+- After that, check if the installation is done by running ```docker info```.
+- If you faced issue is related to privilege or permissions, it's essential to ensure that your user has the necessary privileges to interact with Docker.
