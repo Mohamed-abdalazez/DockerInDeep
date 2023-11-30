@@ -103,7 +103,7 @@
 <a name="desc6"></a>
 ### Crucial concept between a virtual machine and a container.
 
-- Wubba Lubba Dub Dub
+<img alt="VM vs CONTAINER" src="assets/9.png" />
 
 
 <a name="desc7"></a>
