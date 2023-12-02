@@ -121,3 +121,18 @@
 
 <img alt="Docker EngineI" src="assets/10.png" />
 <img alt="Docker EngineII" src="assets/11.png" />
+
+- runc
+   - For each running container, containerd creates a process called runc.
+   - runc is responsible for anything related to this container such as starting, stopping, pausing, and more.
+- shim
+   - The shim acts as a bridge between the container runtime "containerd" and the actual container process "managed by runc".
+   - It stays around even after the main container tool (like runc) has finished its job.How??
+       - runc s responsible for starting the container process and managing the low-level details of container execution.
+       - Once the container process is up and running, runc's primary role is considered done.
+       - the shim doesn't terminate immediately after runc has finished its primary tasks. Instead, it remains active in the background
+   - Ensures that communication channels, such as STDIN and STDOUT streams, remain open between the container and the outside world.
+   - Reports back to the container manager (e.g., containerd) to keep it informed about the status and health of the container. 
+- So, this model achieves a ```loosely coupled architecture```.
+   - Separating the container runtime from the Docker daemon, allowing each component to perform its specialized functions.```daemonless containers```
+   - Since the container runtime is not coupled with the Docker daemon, you can perform maintenance tasks such as ```upgrades``` or ```restarts``` on the Docker daemon without affecting the running containers managed by the container runtime.
