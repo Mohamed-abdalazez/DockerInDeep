@@ -125,7 +125,7 @@
 - runc
    - For each running container, containerd creates a process called runc.
    - runc is responsible for anything related to this container such as starting, stopping, pausing, and more.
-- shim
+- shim ```containerd + runc```
    - The shim acts as a bridge between the container runtime "containerd" and the actual container process "managed by runc".
    - It stays around even after the main container tool (like runc) has finished its job.How??
        - runc s responsible for starting the container process and managing the low-level details of container execution.
