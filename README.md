@@ -13,6 +13,7 @@
 7. [Crucial concept between a virtual machine and a container.](#desc6)
 8. [Docker Installation.](#desc7)
 9. [Docker Engine.](#desc8)
+10. [Docker client and Docker daemon communication.](#desc9)
 
 <a name="desc0"></a>
 ### Why did the concept of virtualization appear in 1960?
@@ -136,3 +137,6 @@
 - So, this model achieves a ```loosely coupled architecture```.
    - Separating the container runtime from the Docker daemon, allowing each component to perform its specialized functions.```daemonless containers```
    - Since the container runtime is not coupled with the Docker daemon, you can perform maintenance tasks such as ```upgrades``` or ```restarts``` on the Docker daemon without affecting the running containers managed by the container runtime.
+
+<a name="desc9"></a>
+### Docker client and Docker daemon communication.
