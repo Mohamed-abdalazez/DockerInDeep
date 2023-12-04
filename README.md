@@ -140,3 +140,5 @@
 
 <a name="desc9"></a>
 ### Docker client and Docker daemon communication.
+
+<img alt="Docker client and Docker daemon communication" src="assets/12.png" />
