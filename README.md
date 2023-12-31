@@ -1,6 +1,7 @@
 # DockerInDeep
 
 <p align="center">
+  <img src="assets/DockerInDeep.png"  width="200px" height="200px"><br>
   <samp>
     Note that this repo is under improvement, so take a pomegranate and have a nice day.<br>
     You can contribute; <a href="#Contributing" style="color: red;">check the steps</a>.
