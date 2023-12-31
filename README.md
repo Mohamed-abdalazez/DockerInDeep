@@ -1,6 +1,12 @@
 # DockerInDeep
 
-```Note that this repo is under improvement, so take a pomegranate and have a nice day.```
+<p align="center">
+  <samp>
+    Note that this repo is under improvement, so take a pomegranate and have a nice day.<br>
+    You can contribute; <a href="#Contributing" style="color: red;">check the steps</a>.
+  </samp>
+</p>
+
 
 ### Table of content
 
@@ -142,3 +148,39 @@
 ### Docker client and Docker daemon communication.
 
 <img alt="Docker client and Docker daemon communication" src="assets/12.png" />
+
+<a name="NT"></a>
+### Next topic
+- How to secure the communication between the Docker client and Docker daemon?
+
+<a name="Contributing"></a>
+### Contributing.
+
+1. Fork the repository.
+2. Clone your forked repository to your local machine.
+   ```
+   git clone https://github.com/Mohamed-abdalazez/DockerInDeep.git
+   cd DockerInDeep
+   ```
+3. Create a new branch for your topic.
+   ```
+   git checkout -b feature-branch
+   ```
+4. Set upstream remote.
+   ```
+   git remote add upstream https://github.com/Mohamed-abdalazez/DockerInDeep.git
+   ```
+5. Make your changes as follows:
+    - Review the next topic to be added [here](#NT).
+    - Implement your changes.
+    - If you have a figure, use [excalidraw](https://excalidraw.com/) to create it.
+    - Place the ```figure.png``` in the ```assets``` folder.
+    - Include the ```figure.excalidraw``` in the ```excalidraw``` folder.
+    - Name the ```figure.png``` and ```figure.excalidraw``` with the topic name, keeping it as short as possible.
+6. Push your changes.
+   ```
+   git add .
+   git commit -m "Added: new topic"
+   git push --set-upstream origin your-branch-name
+   ```
+8. Create pull request on GitHub.
