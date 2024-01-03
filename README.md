@@ -118,6 +118,13 @@
 <a name="desc7"></a>
 ### Docker Installation.
 - You can use the repo [docker-install](https://github.com/docker/docker-install), which is virified by Docker, or see the [Docker Docs](https://docs.docker.com/).
+
+> [!NOTE]
+> In the documentation in the repository of the installer script, they mention:<br>
+> The purpose of the install script is for a convenience for quickly installing the latest Docker-CE releases on the supported linux distros.
+> It is not recommended to depend on this script for deployment to production systems.
+> For more thorough instructions for installing on the supported distros, see the [install instructions](https://docs.docker.com/engine/install/).
+
 - After that, check if the installation is done by running ```docker info```.
 - If you faced issue is related to privilege or permissions, it's essential to ensure that your user has the necessary privileges to interact with Docker.
    - So you have to add the user to the Docker Group:->
