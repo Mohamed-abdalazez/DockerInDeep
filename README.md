@@ -97,8 +97,11 @@
      
      <img alt="Namespaces and cgroups" src="assets/6.png" />
 - In the figure below, let say that the container starts with proc_1, which is ```RUN CONTAINER```, then opens proc_2, which is ```OS specification```, and each process will open the next one. Linux Kernal considers all of these processes as a single process. and using the ```namespaces``` technique to isolate all these processes from all operating system.
+  
 <img alt="container_architecture" src="assets/7.png" />
 
+> [!TIP]
+> Look here for more explanation on namespaces and cgroups: [cgroups&Namespaces;](https://github.com/SafrotTechUniverse/Insights.To.Different.Micro.Topics/tree/main/Linux/cgroups%26Namespaces%3B)
 <a name="desc5"></a>
 ### The technology that is provided to deal with this container concept.
 
